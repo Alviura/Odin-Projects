@@ -1,0 +1,50 @@
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: burlywood;
+}
+
+li {
+    color: blue;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    width: max-content;
+    margin: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.logo li {
+    color: firebrick;
+    font-size: 20px;
+}
+
+.nav-list .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list .right {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list .left {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
